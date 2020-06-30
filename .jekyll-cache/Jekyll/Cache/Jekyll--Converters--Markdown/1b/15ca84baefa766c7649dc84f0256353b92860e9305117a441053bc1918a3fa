@@ -1,0 +1,11 @@
+I"Þ<div id="loginForm"> <!-- 1 -->
+</div>
+<script src="/js/github.js"></script>
+<p><!-- 3 -->
+<script>
+var path = window.location.pathname;
+var page = path.split("/").pop();
+window.page = page; // 2
+onSubmit();
+</script></p>
+:ET

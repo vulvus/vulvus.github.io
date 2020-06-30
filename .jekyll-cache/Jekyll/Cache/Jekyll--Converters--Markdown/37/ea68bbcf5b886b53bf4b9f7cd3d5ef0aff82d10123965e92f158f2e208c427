@@ -1,0 +1,16 @@
+I"x<div id="loginForm"> <!-- 1 -->
+    <span>Enter your github credentials:</span>
+    <form onsubmit="onSubmit(this);">
+        <input type="submit" value="Access" />
+    </form>
+</div>
+<script>
+var path = window.location.pathname;
+var page = path.split("/").pop();
+window.page = page; // 2
+alert(window.page);
+</script>
+
+<script src="/js/github.js"></script>
+<p><!-- 3 --></p>
+:ET
